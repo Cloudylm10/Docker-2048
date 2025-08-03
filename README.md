@@ -107,6 +107,31 @@ eb deploy
 eb open
 ```
 
+Deployment Verification
+After successful deployment, you should see:
+
+In AWS Elastic Beanstalk console:
+
+Environment health status "OK"
+
+Application available at the generated domain (e.g., 2048-envelope-gbm@ipk.us-east-1.elasticbeanstalk.com)
+
+Successful deployment events in the event log
+
+<img width="1919" height="982" alt="Screenshot 2025-08-04 021115" src="https://github.com/user-attachments/assets/69842778-09f5-4c7b-8c47-04adc5c9664f" />
+
+In your web browser:
+
+The 2048 game interface with the title "Join the numbers and get to the 2048 tile!"
+
+Functional game controls using arrow keys
+
+Working tile merging mechanics
+
+<img width="1908" height="942" alt="Screenshot 2025-08-04 021136" src="https://github.com/user-attachments/assets/11fde10a-4100-4caf-9753-6f75f4098efb" />
+
+
+
 ## Source Attribution
 
 The 2048 game files used in this project are copied directly from the original source:
